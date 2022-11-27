@@ -1,9 +1,10 @@
 body {
   background-color: #333332;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 div {
-  margin-top: 50vh;
   text-align: center;
+  margin-top: 50px;
   font-size: 70px;
   background-size: 500%;
 }
@@ -28,7 +29,7 @@ div {
 
 @keyframes animation-header {
   0% {
-    background-position: 0 25% 50% 75% 100%;
+    background-position: 0 100%;
   }
   50% {
     background-position: 100% 0;
