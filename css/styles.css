@@ -8,14 +8,6 @@ div {
   font-size: 70px;
   background-size: 500%;
 }
-.ui,
-.my,
-.code {
-  color: transparent;
-  background-image: linear-gradient(to left, #ffff13, #ffffbe, #ffffff);
-  -webkit-background-clip: text;
-  background-size: 500%;
-}
 .ui {
   animation: animation-header 1s cubic-bezier(0.97, 0.95, 0.9, 0.9) infinite;
 }
@@ -29,12 +21,18 @@ div {
 
 @keyframes animation-header {
   0% {
-    background-position: 0 100%;
+    color: #ffff13;
+  }
+  25% {
+    color: white;
   }
   50% {
-    background-position: 100% 0;
+    color: #ffff13;
+  }
+  75% {
+    color: #ffffff;
   }
   100% {
-    background-position: 0 100%;
+    color: #ffff13;
   }
 }
